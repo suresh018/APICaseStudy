@@ -1,0 +1,10 @@
+/.metadata/
+
+/RemoteSystemTempFiles/
+/GitHubApiTesting/bin/
+
+/GitHubApiTesting/.Settings/
+/GitHubApiTesting/Lib/
+/GitHubApiTesting/test-output/
+/GitHubApiTesting/*.classpath
+/GitHubApiTesting/*.project
