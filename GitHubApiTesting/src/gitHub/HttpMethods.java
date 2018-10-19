@@ -11,8 +11,9 @@ public class HttpMethods {
 		RestAssured.baseURI=url;
 		//Basic autthentication to provide username and password
 		PreemptiveBasicAuthScheme authScheme = new PreemptiveBasicAuthScheme();
-		authScheme.setUserName("XXXX.YYYY@gmail.com");
-		authScheme.setPassword("XXXXXXX");
+		//Provide your username and password for authentication
+		authScheme.setUserName("xxx.yyy@gmail.com");
+		authScheme.setPassword("pppppp");
 		RestAssured.authentication = authScheme;
 		// Get the RequestSpecification of the request that you want to sent to the server.
 		RequestSpecification httpRequest=RestAssured.given();		  
